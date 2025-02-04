@@ -48,12 +48,14 @@ export class HomePageComponent implements OnInit {
   }
 
   orderProduct(product: Product, quantity: string) {
+    console.log(product);
 
     this.oidcSecurityService.userData$.subscribe(result => {
+      console.log("result", result);
       const userDetails = {
         email: result.userData.email,
-        firstName: result.userData.firstName,
-        lastName: result.userData.lastName
+        firstName: result.userData.family_name,
+        lastName: result.userData.given_name
       };
 
       if(!quantity) {
@@ -62,6 +64,7 @@ export class HomePageComponent implements OnInit {
         this.quantityIsNull = true;
       } else {
         const order: Order = {
+          orderNumber: "number",
           skuCode: product.skuCode,
           price: product.price,
           quantity: Number(quantity),

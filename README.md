@@ -1,19 +1,31 @@
-# MicroservicesShopFrontend
+### README: MicroservicesShopFrontend (Español)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 18.0.2.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 **Servidor de Desarrollo**
 
-## Screenshots
+Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
 
-Home Page
+```shell
+ng serve
+```
 
-![img.png](screenshots/img.png)
+Luego, accede a la aplicación en:  
+🔗 `http://localhost:4200/`
 
-Add Product page
+La aplicación se recargará automáticamente al realizar cambios en los archivos fuente.
 
-![img_1.png](screenshots/img_1.png)
+---
 
+## 🖼️ **Capturas de Pantalla**
 
+### 🏠 **Página de Inicio**  
+![Página de Inicio](screenshots/img.png)
+
+### 🛒 **Página para Agregar Productos**  
+![Agregar Producto](screenshots/img_1.png)
+
+---
+✅ ¡Todo listo! Ahora puedes comenzar a explorar y modificar la aplicación. 🚀✨
